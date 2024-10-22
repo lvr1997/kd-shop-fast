@@ -1,6 +1,6 @@
 package com.kdshop.mapper;
 
-import com.springmvc.pojo.Carousel;
+import com.kdshop.pojo.Carousel;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

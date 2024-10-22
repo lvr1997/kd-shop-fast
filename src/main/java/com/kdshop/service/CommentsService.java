@@ -1,6 +1,6 @@
 package com.kdshop.service;
 
-import com.springmvc.pojo.Comments;
+import com.kdshop.pojo.Comments;
 
 import java.util.List;
 

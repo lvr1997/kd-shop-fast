@@ -1,6 +1,6 @@
 package com.kdshop.service;
 
-import com.springmvc.pojo.Carousel;
+import com.kdshop.pojo.Carousel;
 
 import java.util.List;
 

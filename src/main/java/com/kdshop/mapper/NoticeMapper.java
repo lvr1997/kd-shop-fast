@@ -1,6 +1,6 @@
 package com.kdshop.mapper;
 
-import com.springmvc.pojo.Notice;
+import com.kdshop.pojo.Notice;
 
 import java.util.List;
 

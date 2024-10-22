@@ -1,6 +1,6 @@
 package com.kdshop.mapper;
 
-import com.springmvc.pojo.Report;
+import com.kdshop.pojo.Report;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

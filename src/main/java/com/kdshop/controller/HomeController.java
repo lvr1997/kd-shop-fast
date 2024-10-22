@@ -1,11 +1,11 @@
 package com.kdshop.controller;
 
-import com.springmvc.ex.PageNotFoundException;
-import com.springmvc.pojo.*;
-import com.springmvc.service.CarouselService;
-import com.springmvc.service.CatelogService;
-import com.springmvc.service.GoodsService;
-import com.springmvc.service.ImageService;
+import com.kdshop.ex.PageNotFoundException;
+import com.kdshop.pojo.*;
+import com.kdshop.service.CarouselService;
+import com.kdshop.service.CatelogService;
+import com.kdshop.service.GoodsService;
+import com.kdshop.service.ImageService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.PathVariable;

@@ -1,7 +1,7 @@
 package com.kdshop.controller;
 
-import com.springmvc.pojo.*;
-import com.springmvc.service.*;
+import com.kdshop.pojo.*;
+import com.kdshop.service.*;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

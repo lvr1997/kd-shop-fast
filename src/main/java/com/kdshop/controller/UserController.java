@@ -1,12 +1,12 @@
 package com.kdshop.controller;
 
 
-import com.springmvc.ex.PhoneNotFoundException;
-import com.springmvc.ex.ServiceException;
-import com.springmvc.ex.UsernameTakenException;
-import com.springmvc.pojo.*;
-import com.springmvc.service.*;
-import com.springmvc.util.MD5;
+import com.kdshop.ex.PhoneNotFoundException;
+import com.kdshop.ex.ServiceException;
+import com.kdshop.ex.UsernameTakenException;
+import com.kdshop.pojo.*;
+import com.kdshop.service.*;
+import com.kdshop.util.MD5;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;

@@ -1,6 +1,6 @@
 package com.kdshop.mapper;
 
-import com.springmvc.pojo.Reply;
+import com.kdshop.pojo.Reply;
 
 import java.util.List;
 

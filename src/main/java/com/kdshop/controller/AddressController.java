@@ -1,10 +1,10 @@
 package com.kdshop.controller;
 
 
-import com.springmvc.pojo.Address;
-import com.springmvc.pojo.ResponseResult;
-import com.springmvc.pojo.User;
-import com.springmvc.service.AddressService;
+import com.kdshop.pojo.Address;
+import com.kdshop.pojo.ResponseResult;
+import com.kdshop.pojo.User;
+import com.kdshop.service.AddressService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

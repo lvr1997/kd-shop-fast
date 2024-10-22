@@ -1,16 +1,16 @@
 package com.kdshop.service.impl;
 
-import com.springmvc.dao.DictMapper;
-import com.springmvc.pojo.Area;
-import com.springmvc.pojo.City;
-import com.springmvc.pojo.Province;
+import com.kdshop.dao.DictMapper;
+import com.kdshop.pojo.Area;
+import com.kdshop.pojo.City;
+import com.kdshop.pojo.Province;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import java.util.List;
 
 @Service("dictService")
-public class DictServiceImpl implements com.springmvc.service.DictService {
+public class DictServiceImpl implements com.kdshop.service.DictService {
 
 	@Resource
 	private DictMapper dictMapper;

@@ -1,10 +1,10 @@
 package com.kdshop.controller;
 
 
-import com.springmvc.ex.PhoneNotFoundException;
-import com.springmvc.pojo.*;
-import com.springmvc.service.*;
-import com.springmvc.util.MD5;
+import com.kdshop.ex.PhoneNotFoundException;
+import com.kdshop.pojo.*;
+import com.kdshop.service.*;
+import com.kdshop.util.MD5;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;

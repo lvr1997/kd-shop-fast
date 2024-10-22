@@ -1,10 +1,10 @@
 package com.kdshop.controller;
 
-import com.springmvc.pojo.Area;
-import com.springmvc.pojo.City;
-import com.springmvc.pojo.Province;
-import com.springmvc.pojo.ResponseResult;
-import com.springmvc.service.DictService;
+import com.kdshop.pojo.Area;
+import com.kdshop.pojo.City;
+import com.kdshop.pojo.Province;
+import com.kdshop.pojo.ResponseResult;
+import com.kdshop.service.DictService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

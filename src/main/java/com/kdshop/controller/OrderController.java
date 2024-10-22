@@ -1,12 +1,12 @@
 package com.kdshop.controller;
 
-import com.springmvc.pojo.Goods;
-import com.springmvc.pojo.Orders;
-import com.springmvc.pojo.User;
-import com.springmvc.service.AddressService;
-import com.springmvc.service.GoodsService;
-import com.springmvc.service.OrdersService;
-import com.springmvc.service.UserService;
+import com.kdshop.pojo.Goods;
+import com.kdshop.pojo.Orders;
+import com.kdshop.pojo.User;
+import com.kdshop.service.AddressService;
+import com.kdshop.service.GoodsService;
+import com.kdshop.service.OrdersService;
+import com.kdshop.service.UserService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,7 +1,7 @@
 package com.kdshop.controller;
 
-import com.springmvc.pojo.*;
-import com.springmvc.service.*;
+import com.kdshop.pojo.*;
+import com.kdshop.service.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;

@@ -1,8 +1,8 @@
 package com.kdshop.service.impl;
 
-import com.springmvc.dao.OrdersMapper;
-import com.springmvc.pojo.Orders;
-import com.springmvc.service.OrdersService;
+import com.kdshop.dao.OrdersMapper;
+import com.kdshop.pojo.Orders;
+import com.kdshop.service.OrdersService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

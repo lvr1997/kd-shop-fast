@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * 管理员登录过滤器
+ * 登录过滤器
  */
 @Slf4j
 public class MyInterceptor implements HandlerInterceptor {

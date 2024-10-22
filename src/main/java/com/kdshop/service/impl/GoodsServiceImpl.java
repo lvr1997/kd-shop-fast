@@ -1,8 +1,8 @@
 package com.kdshop.service.impl;
 
-import com.springmvc.dao.GoodsMapper;
-import com.springmvc.pojo.Goods;
-import com.springmvc.service.GoodsService;
+import com.kdshop.dao.GoodsMapper;
+import com.kdshop.pojo.Goods;
+import com.kdshop.service.GoodsService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

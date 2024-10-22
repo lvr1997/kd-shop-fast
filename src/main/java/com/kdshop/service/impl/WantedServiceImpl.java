@@ -1,8 +1,8 @@
 package com.kdshop.service.impl;
 
-import com.springmvc.dao.WantedMapper;
-import com.springmvc.pojo.Wanted;
-import com.springmvc.service.WantedService;
+import com.kdshop.dao.WantedMapper;
+import com.kdshop.pojo.Wanted;
+import com.kdshop.service.WantedService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

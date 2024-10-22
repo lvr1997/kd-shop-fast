@@ -1,6 +1,6 @@
 package com.kdshop.service;
 
-import com.springmvc.pojo.Report;
+import com.kdshop.pojo.Report;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
 package com.kdshop.mapper;
 
-import com.springmvc.pojo.Wanted;
+import com.kdshop.pojo.Wanted;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

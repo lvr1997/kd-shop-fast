@@ -1,8 +1,8 @@
 package com.kdshop.service;
 
-import com.springmvc.pojo.Area;
-import com.springmvc.pojo.City;
-import com.springmvc.pojo.Province;
+import com.kdshop.pojo.Area;
+import com.kdshop.pojo.City;
+import com.kdshop.pojo.Province;
 
 import java.util.List;
 

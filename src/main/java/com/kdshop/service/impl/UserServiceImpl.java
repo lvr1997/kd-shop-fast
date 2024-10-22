@@ -1,10 +1,10 @@
 package com.kdshop.service.impl;
 
-import com.springmvc.dao.UserMapper;
-import com.springmvc.ex.PhoneNotFoundException;
-import com.springmvc.ex.UsernameTakenException;
-import com.springmvc.pojo.User;
-import com.springmvc.service.UserService;
+import com.kdshop.dao.UserMapper;
+import com.kdshop.ex.PhoneNotFoundException;
+import com.kdshop.ex.UsernameTakenException;
+import com.kdshop.pojo.User;
+import com.kdshop.service.UserService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

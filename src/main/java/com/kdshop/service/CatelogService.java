@@ -1,6 +1,6 @@
 package com.kdshop.service;
 
-import com.springmvc.pojo.Catelog;
+import com.kdshop.pojo.Catelog;
 
 import java.util.List;
 
