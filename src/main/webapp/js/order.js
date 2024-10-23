@@ -66,7 +66,7 @@ $(function() {
                             '<p><span><b>出售时间：'+v.orders.createAt+'</b></span><span class="fr"><b>订单号：'+v.orders.orderId+'</b></span></p>'+
                             '</div>'+
                             '<div class="list-main clearfix">'+
-                                '<img src="http://localhost:8088/images/web/'+v.images[0].imgUrl+'" >'+
+                                '<img src="http://localhost:3000/images/web/'+v.images[0].imgUrl+'" >'+
                                 '<div class="good-info fl">'+
                             '<p class="goods-price">￥<span>'+v.good.price+'</span></p>'+
                             '<p class="goods-price">收货地址：<span>'+v.address.recvDistrict+'</span></p>'+

@@ -1,7 +1,7 @@
 package com.kdshop.service.impl;
 
-import com.kdshop.dao.AddressMapper;
-import com.kdshop.dao.DictMapper;
+import com.kdshop.mapper.AddressMapper;
+import com.kdshop.mapper.DictMapper;
 import com.kdshop.pojo.Address;
 import com.kdshop.service.AddressService;
 import org.springframework.stereotype.Service;

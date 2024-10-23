@@ -4,6 +4,7 @@ import com.kdshop.pojo.*;
 import com.kdshop.service.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -41,6 +42,9 @@ public class PublishController {
     @Resource
     private ReportService reportService;
 
+    @Value("${imagesPath}")
+    private String imagesPath;
+
     /**
      * 处理进入发布界面
      * @param session
@@ -76,36 +80,30 @@ public class PublishController {
     @ResponseBody
     @RequestMapping(value = "/publish/upload",method = RequestMethod.POST)
     public Map<String,Object> uploadFile(HttpSession session,HttpServletRequest request, @RequestParam("info") MultipartFile fileName) throws IllegalStateException, IOException{
-        //获取上传文件的原名
-        String oldFileName = fileName.getOriginalFilename();
-
-        //存储图片的物理路径
-        //获取项目部署目录根 （此处为tomcat下的webapps目录路径如 D:\apache-tomcat-7.0.92\webapps，避免项目重新部署后上传的文件被清除丢失）
-        File rootPath = new File(request.getServletContext().getRealPath("/")).getParentFile();
-        File uploadFile = new File(rootPath.getPath()+"/images/web/");
-
-        if(!uploadFile.exists()){
-            uploadFile.mkdirs();
-        }
-
-        //上传图片
-        if(fileName!=null && oldFileName!=null && oldFileName.length()>0){
-            //新的图片名称
-            String newFileName = UUID.randomUUID() + oldFileName.substring(oldFileName.lastIndexOf("."));
-            //新图片
-            String url = rootPath.getPath()+"/images/web/" + newFileName;
-//            logger.info("图片路径=====》"+url);
-            //将内存中的数据写入磁盘
-            fileName.transferTo(new File(url));
+        if(!fileName.isEmpty()) {
+            String uploadPath = imagesPath + "web/";
+            //获取上传文件的原名
+            String oldFileName = fileName.getOriginalFilename();
+            String suffix = oldFileName.substring(oldFileName.lastIndexOf("."));
+            String prefix = new SimpleDateFormat("yyyyMMddHHmmss").format(new Date().getTime());
+            String filename = prefix+suffix;
+            File filepath = new File(uploadPath, filename);
+            // 判断路径是否存在,没有创建
+            if (!filepath.getParentFile().exists()) {
+                filepath.getParentFile().mkdirs();
+            }
+            // 将上传文件保存到一个目标文档中
+            File file1 = new File(uploadPath + File.separator + filename);
+            fileName.transferTo(file1);
             //将新图片名称返回到前端
             Map<String,Object> map=new HashMap<String,Object>();
             Map<String,Object> data=new HashMap<String,Object>();
-            data.put("src",newFileName);
+            data.put("src",filename);
             map.put("success", true);
             map.put("msg", "图片上传成功");
             map.put("data",data);
             return  map;
-        }else{
+        } else {
             Map<String,Object> map=new HashMap<String,Object>();
             map.put("error","error");
             return map;
@@ -121,10 +119,8 @@ public class PublishController {
     @RequestMapping(value = "/publish/delete_image",method = RequestMethod.POST)
     public @ResponseBody
     Map<String,Object> delectUploadFile(HttpServletRequest request, @RequestParam("path") String fileName){
-        //获得物理路径
-        String true_path = request.getServletContext().getRealPath("/images");
         //设置文件的存储路径
-        String file_name = true_path+"\\web\\"+fileName;
+        String file_name = imagesPath + "/web" + fileName;
         File file1 = new File(file_name);
         //判断文件是否存在
         if (file1.exists()) {

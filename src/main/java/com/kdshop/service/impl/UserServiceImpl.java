@@ -1,6 +1,6 @@
 package com.kdshop.service.impl;
 
-import com.kdshop.dao.UserMapper;
+import com.kdshop.mapper.UserMapper;
 import com.kdshop.ex.PhoneNotFoundException;
 import com.kdshop.ex.UsernameTakenException;
 import com.kdshop.pojo.User;

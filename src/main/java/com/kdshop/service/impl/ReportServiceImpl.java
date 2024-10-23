@@ -1,6 +1,6 @@
 package com.kdshop.service.impl;
 
-import com.kdshop.dao.ReportMapper;
+import com.kdshop.mapper.ReportMapper;
 import com.kdshop.pojo.Report;
 import com.kdshop.service.ReportService;
 import org.springframework.stereotype.Service;

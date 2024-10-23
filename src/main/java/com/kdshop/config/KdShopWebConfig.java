@@ -1,8 +1,10 @@
 package com.kdshop.config;
 
-import com.kdshop.interceptor.MyInterceptor;
+import com.kdshop.interceptor.AccessInterceptor;
+import com.kdshop.interceptor.AdminAccessInterceptor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
@@ -22,7 +24,11 @@ public class KdShopWebConfig implements WebMvcConfigurer {
 
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
+    @Autowired
+    private AccessInterceptor accessInterceptor;
 
+    @Autowired
+    private AdminAccessInterceptor adminAccessInterceptor;
     /**
      * 静态资源映射
      * @param registry
@@ -45,8 +51,17 @@ public class KdShopWebConfig implements WebMvcConfigurer {
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(new MyInterceptor())
-                .addPathPatterns("/**")
-                .excludePathPatterns("/","/index", "/goods/index","/admin/login","/css/*","/img/*","/js/*");
+        registry.addInterceptor(accessInterceptor)
+                .addPathPatterns("/user/**")
+                .excludePathPatterns("/user/toLogin","/user/login",
+                                     "/user/check_login", "/user/toRegister",
+                        "/user/register", "/user/checkPhone", "/user/checkCode",
+                        "/user/search", "/user/collect", "/user/forget_password",
+                        "/user/forget", "/user/showAddress", "/user/get_verify_code",
+                        "/user/search/search");
+
+        registry.addInterceptor(adminAccessInterceptor)
+                .addPathPatterns("/admin/**")
+                .excludePathPatterns("/admin/toLogin", "/admin/login");
     }
 }

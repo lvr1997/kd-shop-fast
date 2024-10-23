@@ -1,6 +1,6 @@
 package com.kdshop.service.impl;
 
-import com.kdshop.dao.GoodsMapper;
+import com.kdshop.mapper.GoodsMapper;
 import com.kdshop.pojo.Goods;
 import com.kdshop.service.GoodsService;
 import org.springframework.stereotype.Service;

@@ -4,7 +4,7 @@ package com.kdshop.controller;
 import com.kdshop.ex.PhoneNotFoundException;
 import com.kdshop.pojo.*;
 import com.kdshop.service.*;
-import com.kdshop.util.MD5;
+import com.kdshop.utils.MD5;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
@@ -68,7 +68,7 @@ public class AdminController {
                 if(user.getPassword().equals(word)&&user.getPower()>50) {
                     session.setAttribute("admin",user);
                     map.put("success", true);
-                    map.put("reurl","http://localhost:8088/admin/index");
+                    map.put("reurl","http://localhost:3000/admin/index");
                     map.put("msg", "登录成功");
                 }else{
                     //密码不正确
@@ -313,7 +313,7 @@ public class AdminController {
     public @ResponseBody Map<String,Object> insertCarousel(String title,String imgUrl,String content,String link){
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 
-        String url = imgUrl.substring("http://localhost:8088/images/banner/".length());
+        String url = imgUrl.substring("http://localhost:3000/images/banner/".length());
 
         Carousel carousel = new Carousel(1,title,sdf.format(new Date()),(byte)1,content,link,url);
 
@@ -337,7 +337,7 @@ public class AdminController {
      */
     @RequestMapping(value = "/save_carousel")
     public @ResponseBody Map<String,Object> saveCarousel(Integer id,String title,String imgUrl,String content,String link){
-        String url = imgUrl.substring("http://localhost:8088/images/banner/".length());
+        String url = imgUrl.substring("http://localhost:3000/images/banner/".length());
         Carousel carousel = new Carousel();
         carousel.setId(id);
         carousel.setTitle(title);

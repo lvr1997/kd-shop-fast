@@ -1,6 +1,6 @@
 package com.kdshop.service.impl;
 
-import com.kdshop.dao.CarouselMapper;
+import com.kdshop.mapper.CarouselMapper;
 import com.kdshop.pojo.Carousel;
 import com.kdshop.service.CarouselService;
 import org.springframework.stereotype.Service;

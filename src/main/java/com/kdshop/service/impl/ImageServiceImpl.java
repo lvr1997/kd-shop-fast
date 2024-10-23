@@ -1,6 +1,6 @@
 package com.kdshop.service.impl;
 
-import com.kdshop.dao.ImageMapper;
+import com.kdshop.mapper.ImageMapper;
 import com.kdshop.pojo.Image;
 import com.kdshop.service.ImageService;
 import org.springframework.stereotype.Service;

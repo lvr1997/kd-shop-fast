@@ -6,7 +6,7 @@ import com.kdshop.ex.ServiceException;
 import com.kdshop.ex.UsernameTakenException;
 import com.kdshop.pojo.*;
 import com.kdshop.service.*;
-import com.kdshop.util.MD5;
+import com.kdshop.utils.MD5;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
@@ -145,10 +145,10 @@ public class UserController {
     @RequestMapping("/toLogin")
     public String toLogin(HttpServletRequest request){
         //获得前一个页面的头地址信息，保存下来
-        if("http://localhost:8088/user/forget_password".equals(request.getHeader("Referer"))
-                || "http://localhost:8088/user/register".equals(request.getHeader("Referer"))
-                || "http://localhost:8088/user/toRegister".equals(request.getHeader("Referer"))){
-            loginReferer = "http://localhost:8088/goods/index";
+        if("http://localhost:3000/user/forget_password".equals(request.getHeader("Referer"))
+                || "http://localhost:3000/user/register".equals(request.getHeader("Referer"))
+                || "http://localhost:3000/user/toRegister".equals(request.getHeader("Referer"))){
+            loginReferer = "http://localhost:3000/goods/index";
         }else{
             loginReferer = request.getHeader("Referer");
         }

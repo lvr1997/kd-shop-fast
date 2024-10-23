@@ -1,6 +1,6 @@
 package com.kdshop.service.impl;
 
-import com.kdshop.dao.DictMapper;
+import com.kdshop.mapper.DictMapper;
 import com.kdshop.pojo.Area;
 import com.kdshop.pojo.City;
 import com.kdshop.pojo.Province;

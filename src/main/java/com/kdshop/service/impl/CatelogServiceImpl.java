@@ -1,6 +1,6 @@
 package com.kdshop.service.impl;
 
-import com.kdshop.dao.CatelogMapper;
+import com.kdshop.mapper.CatelogMapper;
 import com.kdshop.pojo.Catelog;
 import com.kdshop.service.CatelogService;
 import org.springframework.stereotype.Service;

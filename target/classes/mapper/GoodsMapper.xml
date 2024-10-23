@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 
-<mapper namespace="com.springmvc.dao.GoodsMapper" >
-  <resultMap id="BaseResultMap" type="com.springmvc.pojo.Goods" >
+<mapper namespace="com.kdshop.mapper.GoodsMapper" >
+  <resultMap id="BaseResultMap" type="com.kdshop.pojo.Goods" >
 
     <!--
       WARNING - @mbggenerated
@@ -39,7 +39,7 @@
     where id = #{id,jdbcType=INTEGER}
   </delete>
 
-  <insert id="insert" parameterType="com.springmvc.pojo.Goods" useGeneratedKeys="true" keyProperty="id">
+  <insert id="insert" parameterType="com.kdshop.pojo.Goods" useGeneratedKeys="true" keyProperty="id">
 
     <!--
       WARNING - @mbggenerated
@@ -59,7 +59,7 @@
       #{viewcount,jdbcType=INTEGER}, #{describle,jdbcType=LONGVARCHAR})
   </insert>
 
-  <update id="updateByPrimaryKey" parameterType="com.springmvc.pojo.Goods" >
+  <update id="updateByPrimaryKey" parameterType="com.kdshop.pojo.Goods" >
 
     <!--
       WARNING - @mbggenerated

@@ -1,6 +1,6 @@
 package com.kdshop.service.impl;
 
-import com.kdshop.dao.CommentsMapper;
+import com.kdshop.mapper.CommentsMapper;
 import com.kdshop.pojo.Comments;
 import com.kdshop.service.CommentsService;
 import org.springframework.stereotype.Service;
