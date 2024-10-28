@@ -617,3 +617,5 @@
 2024-10-23 15:01:28.471 [http-nio-3000-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2024-10-23 15:01:28.472 [http-nio-3000-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
 2024-10-23 15:01:30.031 [http-nio-3000-exec-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} inited
+2024-10-23 15:07:46.545 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closing ...
+2024-10-23 15:07:46.546 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closed
