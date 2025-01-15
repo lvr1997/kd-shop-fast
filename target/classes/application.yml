@@ -55,7 +55,7 @@ logging:
 uploadMode: local
 # 文件上传映射本地路径
 # 在项目的源文件夹中建立upload目录，用于文件上传
-imagesPath: E:/Code/kd-shop/upload/
+imagesPath: E:/Code/kd-shop-fast/upload/
 
 # 图片映射地址
 fileUploadPathRelative: /images/**

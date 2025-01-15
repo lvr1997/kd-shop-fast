@@ -7,6 +7,7 @@ import com.kdshop.ex.UsernameTakenException;
 import com.kdshop.pojo.*;
 import com.kdshop.service.*;
 import com.kdshop.utils.MD5;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
@@ -51,6 +52,9 @@ public class UserController {
 
     //存储上一步浏览的地址
     private String loginReferer;
+
+    @Value("${imagesPath}")
+    private String imagesPath;
 
     /**
      * 处理请求忘记密码页面
@@ -521,50 +525,44 @@ public class UserController {
                                            @PathVariable("id") Integer id)throws IllegalStateException, IOException{
 
         User user = (User)session.getAttribute("cur_user");
-        String oldFileName = fileName.getOriginalFilename(); //获取上传文件的原名
 
-        //存储图片的物理路径
-        File rootPath = new File(request.getServletContext().getRealPath("/")).getParentFile();
-        File uploadFile = new File(rootPath.getPath()+"/images/user/");
-
-        if(!uploadFile.exists()){
-            uploadFile.mkdirs();
-        }
-
-
-        //上传图片
-        if(fileName!=null && oldFileName!=null && oldFileName.length()>0){
-            //新的图片名称
-            String newFileName = UUID.randomUUID() + oldFileName.substring(oldFileName.lastIndexOf("."));
+        if(!fileName.isEmpty()) {
+            String uploadPath = imagesPath + "user/";
+            //获取上传文件的原名
+            String oldFileName = fileName.getOriginalFilename();
+            String suffix = oldFileName.substring(oldFileName.lastIndexOf("."));
+            String prefix = new SimpleDateFormat("yyyyMMddHHmmss").format(new Date().getTime());
+            String filename = prefix+suffix;
+            File filepath = new File(uploadPath, filename);
+            // 判断路径是否存在,没有创建
+            if (!filepath.getParentFile().exists()) {
+                filepath.getParentFile().mkdirs();
+            }
             //更新用户头像地址
-            userService.updateImgUrl(id,newFileName);
-
+            userService.updateImgUrl(id,filename);
             User user_new = userService.selectByPrimaryKey(id);
             //重新设置用户的登录信息
             session.setAttribute("cur_user",user_new);
 
             if(user_new.getImgUrl()!=null){
-                //新图片
-                String url = rootPath.getPath()+"/images/user/" + newFileName;
-                //将内存中的数据写入磁盘
-                fileName.transferTo(new File(url));
+                // 将上传文件保存到一个目标文档中
+                File file1 = new File(uploadPath + File.separator + filename);
+                fileName.transferTo(file1);
                 //将新图片名称返回到前端
                 Map<String,Object> map=new HashMap<String,Object>();
                 Map<String,Object> data=new HashMap<String,Object>();
-                data.put("src",newFileName);
-                //返回头像信息保存成功信息
+                data.put("src",filename);
                 map.put("success", true);
                 map.put("msg", "头像上传成功");
                 map.put("data",data);
-
                 return  map;
+            } else {
+                Map<String,Object> map=new HashMap<String,Object>();
+                map.put("error","头像信息保存失败");
+                return map;
             }
-            //头像信息保存失败
-            Map<String,Object> map=new HashMap<String,Object>();
-            map.put("error","头像上传失败");
-            return map;
 
-        }else{
+        } else {
             //上传的文件不存在
             Map<String,Object> map=new HashMap<String,Object>();
             map.put("error","头像上传失败");

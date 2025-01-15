@@ -1,0 +1,621 @@
+2024-10-23 13:49:51.337 [restartedMain] INFO  com.kdshop.WebApplication - Starting WebApplication using Java 1.8.0_371 on DESKTOP-ILELN00 with PID 19436 (E:\Code\kd-shop-fast\target\classes started by LR in E:\Code\kd-shop-fast)
+2024-10-23 13:49:51.338 [restartedMain] INFO  com.kdshop.WebApplication - No active profile set, falling back to default profiles: default
+2024-10-23 13:49:51.371 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-23 13:49:51.371 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-23 13:49:52.172 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+2024-10-23 13:49:52.180 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2024-10-23 13:49:52.180 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-23 13:49:52.180 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2024-10-23 13:49:52.355 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-10-23 13:49:52.360 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-23 13:49:52.360 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 988 ms
+2024-10-23 13:49:52.987 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-10-23 13:49:53.005 [restartedMain] INFO  c.k.c.KdShopWebConfig$$EnhancerBySpringCGLIB$$220241df - =========================Windows 图片资源映射============================
+2024-10-23 13:49:53.145 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-23 13:49:53.160 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2024-10-23 13:49:53.177 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+2024-10-23 13:49:53.184 [restartedMain] INFO  com.kdshop.WebApplication - Started WebApplication in 2.141 seconds (JVM running for 2.992)
+2024-10-23 13:51:24.035 [http-nio-3000-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-23 13:51:24.035 [http-nio-3000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-23 13:51:24.037 [http-nio-3000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-23 13:51:36.682 [http-nio-3000-exec-10] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-10-23 13:56:29.301 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-10-23 13:56:29.305 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-10-23 13:56:34.784 [restartedMain] INFO  com.kdshop.WebApplication - Starting WebApplication using Java 1.8.0_371 on DESKTOP-ILELN00 with PID 26608 (E:\Code\kd-shop-fast\target\classes started by LR in E:\Code\kd-shop-fast)
+2024-10-23 13:56:34.786 [restartedMain] INFO  com.kdshop.WebApplication - No active profile set, falling back to default profiles: default
+2024-10-23 13:56:34.822 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-23 13:56:34.822 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-23 13:56:35.796 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+2024-10-23 13:56:35.805 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2024-10-23 13:56:35.805 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-23 13:56:35.807 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2024-10-23 13:56:36.000 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-10-23 13:56:36.013 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-23 13:56:36.013 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1191 ms
+2024-10-23 13:56:36.534 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-10-23 13:56:36.548 [restartedMain] INFO  c.k.c.KdShopWebConfig$$EnhancerBySpringCGLIB$$d72b3f32 - =========================Windows 图片资源映射============================
+2024-10-23 13:56:36.658 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-23 13:56:36.673 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2024-10-23 13:56:36.690 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+2024-10-23 13:56:36.698 [restartedMain] INFO  com.kdshop.WebApplication - Started WebApplication in 2.24 seconds (JVM running for 3.149)
+2024-10-23 13:57:23.317 [http-nio-3000-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-23 13:57:23.318 [http-nio-3000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-23 13:57:23.318 [http-nio-3000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-23 13:57:36.087 [http-nio-3000-exec-10] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-10-23 14:00:42.711 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-10-23 14:00:42.715 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-10-23 14:00:48.393 [restartedMain] INFO  com.kdshop.WebApplication - Starting WebApplication using Java 1.8.0_371 on DESKTOP-ILELN00 with PID 16824 (E:\Code\kd-shop-fast\target\classes started by LR in E:\Code\kd-shop-fast)
+2024-10-23 14:00:48.394 [restartedMain] INFO  com.kdshop.WebApplication - No active profile set, falling back to default profiles: default
+2024-10-23 14:00:48.429 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-23 14:00:48.429 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-23 14:00:49.257 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+2024-10-23 14:00:49.266 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:00:49.267 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-23 14:00:49.267 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2024-10-23 14:00:49.539 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-10-23 14:00:49.559 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-23 14:00:49.560 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1130 ms
+2024-10-23 14:00:50.141 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-10-23 14:00:50.158 [restartedMain] INFO  c.k.c.KdShopWebConfig$$EnhancerBySpringCGLIB$$5cca0ccf - =========================Windows 图片资源映射============================
+2024-10-23 14:00:50.288 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-23 14:00:50.307 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:00:50.326 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+2024-10-23 14:00:50.335 [restartedMain] INFO  com.kdshop.WebApplication - Started WebApplication in 2.31 seconds (JVM running for 3.208)
+2024-10-23 14:01:33.951 [http-nio-3000-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-23 14:01:33.951 [http-nio-3000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-23 14:01:33.951 [http-nio-3000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-23 14:03:56.152 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-10-23 14:03:59.618 [restartedMain] INFO  com.kdshop.WebApplication - Starting WebApplication using Java 1.8.0_371 on DESKTOP-ILELN00 with PID 35816 (E:\Code\kd-shop-fast\target\classes started by LR in E:\Code\kd-shop-fast)
+2024-10-23 14:03:59.620 [restartedMain] INFO  com.kdshop.WebApplication - No active profile set, falling back to default profiles: default
+2024-10-23 14:03:59.665 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-23 14:03:59.665 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-23 14:04:00.685 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+2024-10-23 14:04:00.693 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:04:00.694 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-23 14:04:00.694 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2024-10-23 14:04:00.922 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-10-23 14:04:00.928 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-23 14:04:00.928 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1263 ms
+2024-10-23 14:04:01.492 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-10-23 14:04:01.506 [restartedMain] INFO  c.k.c.KdShopWebConfig$$EnhancerBySpringCGLIB$$272f90dd - =========================Windows 图片资源映射============================
+2024-10-23 14:04:01.627 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-23 14:04:01.642 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:04:01.662 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+2024-10-23 14:04:01.669 [restartedMain] INFO  com.kdshop.WebApplication - Started WebApplication in 2.402 seconds (JVM running for 4.182)
+2024-10-23 14:04:08.160 [http-nio-3000-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-23 14:04:08.161 [http-nio-3000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-23 14:04:08.162 [http-nio-3000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-23 14:05:47.562 [Thread-10] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-10-23 14:05:47.795 [restartedMain] INFO  com.kdshop.WebApplication - Starting WebApplication using Java 1.8.0_371 on DESKTOP-ILELN00 with PID 35816 (E:\Code\kd-shop-fast\target\classes started by LR in E:\Code\kd-shop-fast)
+2024-10-23 14:05:47.795 [restartedMain] INFO  com.kdshop.WebApplication - No active profile set, falling back to default profiles: default
+2024-10-23 14:05:48.274 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+2024-10-23 14:05:48.275 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:05:48.275 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-23 14:05:48.275 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2024-10-23 14:05:48.387 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-10-23 14:05:48.392 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-23 14:05:48.393 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 591 ms
+2024-10-23 14:05:48.581 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-10-23 14:05:48.587 [restartedMain] INFO  c.k.c.KdShopWebConfig$$EnhancerBySpringCGLIB$$272f90dd - =========================Windows 图片资源映射============================
+2024-10-23 14:05:48.615 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-23 14:05:48.625 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:05:48.629 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+2024-10-23 14:05:48.633 [restartedMain] INFO  com.kdshop.WebApplication - Started WebApplication in 0.925 seconds (JVM running for 111.147)
+2024-10-23 14:05:48.635 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-23 14:05:50.365 [Thread-16] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-10-23 14:05:50.502 [restartedMain] INFO  com.kdshop.WebApplication - Starting WebApplication using Java 1.8.0_371 on DESKTOP-ILELN00 with PID 35816 (E:\Code\kd-shop-fast\target\classes started by LR in E:\Code\kd-shop-fast)
+2024-10-23 14:05:50.502 [restartedMain] INFO  com.kdshop.WebApplication - No active profile set, falling back to default profiles: default
+2024-10-23 14:05:50.765 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+2024-10-23 14:05:50.766 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:05:50.766 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-23 14:05:50.766 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2024-10-23 14:05:50.838 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-10-23 14:05:50.840 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-23 14:05:50.840 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 335 ms
+2024-10-23 14:05:50.987 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-10-23 14:05:50.991 [restartedMain] INFO  c.k.c.KdShopWebConfig$$EnhancerBySpringCGLIB$$272f90dd - =========================Windows 图片资源映射============================
+2024-10-23 14:05:51.012 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-23 14:05:51.019 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:05:51.022 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+2024-10-23 14:05:51.025 [restartedMain] INFO  com.kdshop.WebApplication - Started WebApplication in 0.564 seconds (JVM running for 113.537)
+2024-10-23 14:05:51.025 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-23 14:05:59.407 [http-nio-3000-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-23 14:05:59.408 [http-nio-3000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-23 14:05:59.409 [http-nio-3000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-23 14:09:57.082 [Thread-20] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-10-23 14:09:57.257 [restartedMain] INFO  com.kdshop.WebApplication - Starting WebApplication using Java 1.8.0_371 on DESKTOP-ILELN00 with PID 35816 (E:\Code\kd-shop-fast\target\classes started by LR in E:\Code\kd-shop-fast)
+2024-10-23 14:09:57.257 [restartedMain] INFO  com.kdshop.WebApplication - No active profile set, falling back to default profiles: default
+2024-10-23 14:09:57.533 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+2024-10-23 14:09:57.533 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:09:57.534 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-23 14:09:57.534 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2024-10-23 14:09:57.616 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-10-23 14:09:57.618 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-23 14:09:57.618 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 358 ms
+2024-10-23 14:09:57.766 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-10-23 14:09:57.770 [restartedMain] INFO  c.k.c.KdShopWebConfig$$EnhancerBySpringCGLIB$$272f90dd - =========================Windows 图片资源映射============================
+2024-10-23 14:09:57.792 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-23 14:09:57.800 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:09:57.803 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+2024-10-23 14:09:57.805 [restartedMain] INFO  com.kdshop.WebApplication - Started WebApplication in 0.603 seconds (JVM running for 360.318)
+2024-10-23 14:09:57.806 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-23 14:09:59.632 [Thread-24] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-10-23 14:09:59.776 [restartedMain] INFO  com.kdshop.WebApplication - Starting WebApplication using Java 1.8.0_371 on DESKTOP-ILELN00 with PID 35816 (E:\Code\kd-shop-fast\target\classes started by LR in E:\Code\kd-shop-fast)
+2024-10-23 14:09:59.776 [restartedMain] INFO  com.kdshop.WebApplication - No active profile set, falling back to default profiles: default
+2024-10-23 14:10:00.031 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+2024-10-23 14:10:00.032 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:10:00.032 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-23 14:10:00.032 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2024-10-23 14:10:00.101 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-10-23 14:10:00.102 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-23 14:10:00.102 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 323 ms
+2024-10-23 14:10:00.230 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-10-23 14:10:00.233 [restartedMain] INFO  c.k.c.KdShopWebConfig$$EnhancerBySpringCGLIB$$272f90dd - =========================Windows 图片资源映射============================
+2024-10-23 14:10:00.255 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-23 14:10:00.261 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:10:00.265 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+2024-10-23 14:10:00.266 [restartedMain] INFO  com.kdshop.WebApplication - Started WebApplication in 0.538 seconds (JVM running for 362.78)
+2024-10-23 14:10:00.267 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-23 14:12:36.441 [Thread-28] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-10-23 14:12:36.583 [restartedMain] INFO  com.kdshop.WebApplication - Starting WebApplication using Java 1.8.0_371 on DESKTOP-ILELN00 with PID 35816 (E:\Code\kd-shop-fast\target\classes started by LR in E:\Code\kd-shop-fast)
+2024-10-23 14:12:36.584 [restartedMain] INFO  com.kdshop.WebApplication - No active profile set, falling back to default profiles: default
+2024-10-23 14:12:36.858 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+2024-10-23 14:12:36.858 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:12:36.858 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-23 14:12:36.859 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2024-10-23 14:12:36.932 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-10-23 14:12:36.934 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-23 14:12:36.934 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 345 ms
+2024-10-23 14:12:37.075 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-10-23 14:12:37.079 [restartedMain] INFO  c.k.c.KdShopWebConfig$$EnhancerBySpringCGLIB$$272f90dd - =========================Windows 图片资源映射============================
+2024-10-23 14:12:37.103 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-23 14:12:37.110 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:12:37.115 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+2024-10-23 14:12:37.118 [restartedMain] INFO  com.kdshop.WebApplication - Started WebApplication in 0.585 seconds (JVM running for 519.631)
+2024-10-23 14:12:37.119 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-23 14:12:38.939 [Thread-32] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-10-23 14:12:39.100 [restartedMain] INFO  com.kdshop.WebApplication - Starting WebApplication using Java 1.8.0_371 on DESKTOP-ILELN00 with PID 35816 (E:\Code\kd-shop-fast\target\classes started by LR in E:\Code\kd-shop-fast)
+2024-10-23 14:12:39.100 [restartedMain] INFO  com.kdshop.WebApplication - No active profile set, falling back to default profiles: default
+2024-10-23 14:12:39.336 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+2024-10-23 14:12:39.337 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:12:39.337 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-23 14:12:39.337 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2024-10-23 14:12:39.410 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-10-23 14:12:39.412 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-23 14:12:39.412 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 310 ms
+2024-10-23 14:12:39.535 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-10-23 14:12:39.539 [restartedMain] INFO  c.k.c.KdShopWebConfig$$EnhancerBySpringCGLIB$$272f90dd - =========================Windows 图片资源映射============================
+2024-10-23 14:12:39.559 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-23 14:12:39.565 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:12:39.569 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+2024-10-23 14:12:39.571 [restartedMain] INFO  com.kdshop.WebApplication - Started WebApplication in 0.513 seconds (JVM running for 522.084)
+2024-10-23 14:12:39.572 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-23 14:13:16.356 [http-nio-3000-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-23 14:13:16.357 [http-nio-3000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-23 14:13:16.357 [http-nio-3000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-23 14:13:28.079 [http-nio-3000-exec-3] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-10-23 14:20:44.397 [Thread-36] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-10-23 14:20:44.402 [Thread-36] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-10-23 14:20:44.602 [restartedMain] INFO  com.kdshop.WebApplication - Starting WebApplication using Java 1.8.0_371 on DESKTOP-ILELN00 with PID 35816 (E:\Code\kd-shop-fast\target\classes started by LR in E:\Code\kd-shop-fast)
+2024-10-23 14:20:44.602 [restartedMain] INFO  com.kdshop.WebApplication - No active profile set, falling back to default profiles: default
+2024-10-23 14:20:44.860 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+2024-10-23 14:20:44.861 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:20:44.861 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-23 14:20:44.861 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2024-10-23 14:20:44.937 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-10-23 14:20:44.940 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-23 14:20:44.940 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 335 ms
+2024-10-23 14:20:45.107 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-10-23 14:20:45.117 [restartedMain] INFO  c.k.c.KdShopWebConfig$$EnhancerBySpringCGLIB$$272f90dd - =========================Windows 图片资源映射============================
+2024-10-23 14:20:45.166 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-23 14:20:45.177 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:20:45.183 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+2024-10-23 14:20:45.189 [restartedMain] INFO  com.kdshop.WebApplication - Started WebApplication in 0.633 seconds (JVM running for 1007.703)
+2024-10-23 14:20:45.192 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-23 14:20:46.951 [Thread-41] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-10-23 14:20:47.128 [restartedMain] INFO  com.kdshop.WebApplication - Starting WebApplication using Java 1.8.0_371 on DESKTOP-ILELN00 with PID 35816 (E:\Code\kd-shop-fast\target\classes started by LR in E:\Code\kd-shop-fast)
+2024-10-23 14:20:47.128 [restartedMain] INFO  com.kdshop.WebApplication - No active profile set, falling back to default profiles: default
+2024-10-23 14:20:47.376 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+2024-10-23 14:20:47.376 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:20:47.377 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-23 14:20:47.377 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2024-10-23 14:20:47.451 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-10-23 14:20:47.453 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-23 14:20:47.453 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 322 ms
+2024-10-23 14:20:47.593 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-10-23 14:20:47.598 [restartedMain] INFO  c.k.c.KdShopWebConfig$$EnhancerBySpringCGLIB$$272f90dd - =========================Windows 图片资源映射============================
+2024-10-23 14:20:47.622 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-23 14:20:47.630 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:20:47.633 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+2024-10-23 14:20:47.636 [restartedMain] INFO  com.kdshop.WebApplication - Started WebApplication in 0.545 seconds (JVM running for 1010.149)
+2024-10-23 14:20:47.636 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-23 14:23:00.385 [Thread-45] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-10-23 14:23:00.521 [restartedMain] INFO  com.kdshop.WebApplication - Starting WebApplication using Java 1.8.0_371 on DESKTOP-ILELN00 with PID 35816 (E:\Code\kd-shop-fast\target\classes started by LR in E:\Code\kd-shop-fast)
+2024-10-23 14:23:00.521 [restartedMain] INFO  com.kdshop.WebApplication - No active profile set, falling back to default profiles: default
+2024-10-23 14:23:00.960 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+2024-10-23 14:23:00.960 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:23:00.961 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-23 14:23:00.961 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2024-10-23 14:23:01.070 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-10-23 14:23:01.073 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-23 14:23:01.074 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 549 ms
+2024-10-23 14:23:01.257 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-10-23 14:23:01.264 [restartedMain] INFO  c.k.c.KdShopWebConfig$$EnhancerBySpringCGLIB$$272f90dd - =========================Windows 图片资源映射============================
+2024-10-23 14:23:01.296 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-23 14:23:01.305 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:23:01.310 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+2024-10-23 14:23:01.313 [restartedMain] INFO  com.kdshop.WebApplication - Started WebApplication in 0.84 seconds (JVM running for 1143.827)
+2024-10-23 14:23:01.315 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-23 14:23:03.051 [Thread-49] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-10-23 14:23:03.609 [restartedMain] INFO  com.kdshop.WebApplication - Starting WebApplication using Java 1.8.0_371 on DESKTOP-ILELN00 with PID 35816 (E:\Code\kd-shop-fast\target\classes started by LR in E:\Code\kd-shop-fast)
+2024-10-23 14:23:03.609 [restartedMain] INFO  com.kdshop.WebApplication - No active profile set, falling back to default profiles: default
+2024-10-23 14:23:03.875 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+2024-10-23 14:23:03.876 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:23:03.876 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-23 14:23:03.876 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2024-10-23 14:23:03.948 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-10-23 14:23:03.950 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-23 14:23:03.950 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 337 ms
+2024-10-23 14:23:04.078 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-10-23 14:23:04.083 [restartedMain] INFO  c.k.c.KdShopWebConfig$$EnhancerBySpringCGLIB$$272f90dd - =========================Windows 图片资源映射============================
+2024-10-23 14:23:04.104 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-23 14:23:04.111 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:23:04.115 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+2024-10-23 14:23:04.117 [restartedMain] INFO  com.kdshop.WebApplication - Started WebApplication in 0.924 seconds (JVM running for 1146.631)
+2024-10-23 14:23:04.117 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-23 14:23:13.494 [Thread-53] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-10-23 14:23:13.730 [restartedMain] INFO  com.kdshop.WebApplication - Starting WebApplication using Java 1.8.0_371 on DESKTOP-ILELN00 with PID 35816 (E:\Code\kd-shop-fast\target\classes started by LR in E:\Code\kd-shop-fast)
+2024-10-23 14:23:13.730 [restartedMain] INFO  com.kdshop.WebApplication - No active profile set, falling back to default profiles: default
+2024-10-23 14:23:14.073 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+2024-10-23 14:23:14.074 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:23:14.074 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-23 14:23:14.074 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2024-10-23 14:23:14.148 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-10-23 14:23:14.151 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-23 14:23:14.151 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 416 ms
+2024-10-23 14:23:14.290 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-10-23 14:23:14.294 [restartedMain] INFO  c.k.c.KdShopWebConfig$$EnhancerBySpringCGLIB$$272f90dd - =========================Windows 图片资源映射============================
+2024-10-23 14:23:14.315 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-23 14:23:14.322 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:23:14.326 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+2024-10-23 14:23:14.330 [restartedMain] INFO  com.kdshop.WebApplication - Started WebApplication in 0.655 seconds (JVM running for 1156.843)
+2024-10-23 14:23:14.331 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-23 14:23:36.398 [Thread-57] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-10-23 14:23:36.514 [restartedMain] INFO  com.kdshop.WebApplication - Starting WebApplication using Java 1.8.0_371 on DESKTOP-ILELN00 with PID 35816 (E:\Code\kd-shop-fast\target\classes started by LR in E:\Code\kd-shop-fast)
+2024-10-23 14:23:36.514 [restartedMain] INFO  com.kdshop.WebApplication - No active profile set, falling back to default profiles: default
+2024-10-23 14:23:36.748 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+2024-10-23 14:23:36.748 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:23:36.748 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-23 14:23:36.748 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2024-10-23 14:23:36.820 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-10-23 14:23:36.822 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-23 14:23:36.822 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 305 ms
+2024-10-23 14:23:36.945 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-10-23 14:23:36.948 [restartedMain] INFO  c.k.c.KdShopWebConfig$$EnhancerBySpringCGLIB$$272f90dd - =========================Windows 图片资源映射============================
+2024-10-23 14:23:36.969 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-23 14:23:36.975 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:23:36.978 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+2024-10-23 14:23:36.980 [restartedMain] INFO  com.kdshop.WebApplication - Started WebApplication in 0.501 seconds (JVM running for 1179.494)
+2024-10-23 14:23:36.981 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-23 14:23:45.225 [Thread-61] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-10-23 14:23:45.376 [restartedMain] INFO  com.kdshop.WebApplication - Starting WebApplication using Java 1.8.0_371 on DESKTOP-ILELN00 with PID 35816 (E:\Code\kd-shop-fast\target\classes started by LR in E:\Code\kd-shop-fast)
+2024-10-23 14:23:45.377 [restartedMain] INFO  com.kdshop.WebApplication - No active profile set, falling back to default profiles: default
+2024-10-23 14:23:45.705 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+2024-10-23 14:23:45.705 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:23:45.705 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-23 14:23:45.706 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2024-10-23 14:23:45.780 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-10-23 14:23:45.783 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-23 14:23:45.783 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 403 ms
+2024-10-23 14:23:45.919 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-10-23 14:23:45.924 [restartedMain] INFO  c.k.c.KdShopWebConfig$$EnhancerBySpringCGLIB$$272f90dd - =========================Windows 图片资源映射============================
+2024-10-23 14:23:45.944 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-23 14:23:45.951 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:23:45.954 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+2024-10-23 14:23:45.956 [restartedMain] INFO  com.kdshop.WebApplication - Started WebApplication in 0.626 seconds (JVM running for 1188.469)
+2024-10-23 14:23:45.957 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-23 14:24:14.224 [Thread-65] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-10-23 14:24:14.352 [restartedMain] INFO  com.kdshop.WebApplication - Starting WebApplication using Java 1.8.0_371 on DESKTOP-ILELN00 with PID 35816 (E:\Code\kd-shop-fast\target\classes started by LR in E:\Code\kd-shop-fast)
+2024-10-23 14:24:14.352 [restartedMain] INFO  com.kdshop.WebApplication - No active profile set, falling back to default profiles: default
+2024-10-23 14:24:14.627 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+2024-10-23 14:24:14.627 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:24:14.627 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-23 14:24:14.627 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2024-10-23 14:24:14.701 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-10-23 14:24:14.703 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-23 14:24:14.703 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 348 ms
+2024-10-23 14:24:14.984 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-10-23 14:24:14.993 [restartedMain] INFO  c.k.c.KdShopWebConfig$$EnhancerBySpringCGLIB$$272f90dd - =========================Windows 图片资源映射============================
+2024-10-23 14:24:15.042 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-23 14:24:15.058 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:24:15.065 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+2024-10-23 14:24:15.071 [restartedMain] INFO  com.kdshop.WebApplication - Started WebApplication in 0.755 seconds (JVM running for 1217.584)
+2024-10-23 14:24:15.072 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-23 14:24:34.974 [Thread-69] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-10-23 14:24:35.192 [restartedMain] INFO  com.kdshop.WebApplication - Starting WebApplication using Java 1.8.0_371 on DESKTOP-ILELN00 with PID 35816 (E:\Code\kd-shop-fast\target\classes started by LR in E:\Code\kd-shop-fast)
+2024-10-23 14:24:35.193 [restartedMain] INFO  com.kdshop.WebApplication - No active profile set, falling back to default profiles: default
+2024-10-23 14:24:35.625 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+2024-10-23 14:24:35.626 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:24:35.626 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-23 14:24:35.626 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2024-10-23 14:24:35.721 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-10-23 14:24:35.724 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-23 14:24:35.724 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 527 ms
+2024-10-23 14:24:35.918 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-10-23 14:24:35.925 [restartedMain] INFO  c.k.c.KdShopWebConfig$$EnhancerBySpringCGLIB$$272f90dd - =========================Windows 图片资源映射============================
+2024-10-23 14:24:35.961 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-23 14:24:35.969 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:24:35.974 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+2024-10-23 14:24:35.977 [restartedMain] INFO  com.kdshop.WebApplication - Started WebApplication in 0.857 seconds (JVM running for 1238.49)
+2024-10-23 14:24:35.978 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-23 14:24:37.858 [Thread-73] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-10-23 14:24:38.057 [restartedMain] INFO  com.kdshop.WebApplication - Starting WebApplication using Java 1.8.0_371 on DESKTOP-ILELN00 with PID 35816 (E:\Code\kd-shop-fast\target\classes started by LR in E:\Code\kd-shop-fast)
+2024-10-23 14:24:38.058 [restartedMain] INFO  com.kdshop.WebApplication - No active profile set, falling back to default profiles: default
+2024-10-23 14:24:38.299 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+2024-10-23 14:24:38.299 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:24:38.299 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-23 14:24:38.299 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2024-10-23 14:24:38.369 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-10-23 14:24:38.371 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-23 14:24:38.371 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 312 ms
+2024-10-23 14:24:38.490 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-10-23 14:24:38.494 [restartedMain] INFO  c.k.c.KdShopWebConfig$$EnhancerBySpringCGLIB$$272f90dd - =========================Windows 图片资源映射============================
+2024-10-23 14:24:38.515 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-23 14:24:38.522 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:24:38.524 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+2024-10-23 14:24:38.526 [restartedMain] INFO  com.kdshop.WebApplication - Started WebApplication in 0.504 seconds (JVM running for 1241.04)
+2024-10-23 14:24:38.527 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-23 14:24:51.934 [Thread-77] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-10-23 14:24:52.037 [restartedMain] INFO  com.kdshop.WebApplication - Starting WebApplication using Java 1.8.0_371 on DESKTOP-ILELN00 with PID 35816 (E:\Code\kd-shop-fast\target\classes started by LR in E:\Code\kd-shop-fast)
+2024-10-23 14:24:52.037 [restartedMain] INFO  com.kdshop.WebApplication - No active profile set, falling back to default profiles: default
+2024-10-23 14:24:52.372 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+2024-10-23 14:24:52.372 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:24:52.372 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-23 14:24:52.372 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2024-10-23 14:24:52.489 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-10-23 14:24:52.492 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-23 14:24:52.492 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 452 ms
+2024-10-23 14:24:52.709 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-10-23 14:24:52.716 [restartedMain] INFO  c.k.c.KdShopWebConfig$$EnhancerBySpringCGLIB$$272f90dd - =========================Windows 图片资源映射============================
+2024-10-23 14:24:52.759 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-23 14:24:52.776 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:24:52.782 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+2024-10-23 14:24:52.786 [restartedMain] INFO  com.kdshop.WebApplication - Started WebApplication in 0.783 seconds (JVM running for 1255.3)
+2024-10-23 14:24:52.790 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-23 14:24:54.522 [Thread-81] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-10-23 14:24:54.659 [restartedMain] INFO  com.kdshop.WebApplication - Starting WebApplication using Java 1.8.0_371 on DESKTOP-ILELN00 with PID 35816 (E:\Code\kd-shop-fast\target\classes started by LR in E:\Code\kd-shop-fast)
+2024-10-23 14:24:54.659 [restartedMain] INFO  com.kdshop.WebApplication - No active profile set, falling back to default profiles: default
+2024-10-23 14:24:54.889 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+2024-10-23 14:24:54.889 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:24:54.889 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-23 14:24:54.889 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2024-10-23 14:24:54.957 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-10-23 14:24:54.959 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-23 14:24:54.959 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 297 ms
+2024-10-23 14:24:55.074 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-10-23 14:24:55.077 [restartedMain] INFO  c.k.c.KdShopWebConfig$$EnhancerBySpringCGLIB$$272f90dd - =========================Windows 图片资源映射============================
+2024-10-23 14:24:55.096 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-23 14:24:55.102 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:24:55.106 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+2024-10-23 14:24:55.108 [restartedMain] INFO  com.kdshop.WebApplication - Started WebApplication in 0.481 seconds (JVM running for 1257.621)
+2024-10-23 14:24:55.108 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-23 14:25:09.660 [Thread-85] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-10-23 14:25:09.801 [restartedMain] INFO  com.kdshop.WebApplication - Starting WebApplication using Java 1.8.0_371 on DESKTOP-ILELN00 with PID 35816 (E:\Code\kd-shop-fast\target\classes started by LR in E:\Code\kd-shop-fast)
+2024-10-23 14:25:09.801 [restartedMain] INFO  com.kdshop.WebApplication - No active profile set, falling back to default profiles: default
+2024-10-23 14:25:10.117 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+2024-10-23 14:25:10.117 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:25:10.117 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-23 14:25:10.117 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2024-10-23 14:25:10.240 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-10-23 14:25:10.245 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-23 14:25:10.245 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 441 ms
+2024-10-23 14:25:10.517 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-10-23 14:25:10.526 [restartedMain] INFO  c.k.c.KdShopWebConfig$$EnhancerBySpringCGLIB$$272f90dd - =========================Windows 图片资源映射============================
+2024-10-23 14:25:10.570 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-23 14:25:10.586 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:25:10.592 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+2024-10-23 14:25:10.597 [restartedMain] INFO  com.kdshop.WebApplication - Started WebApplication in 0.833 seconds (JVM running for 1273.11)
+2024-10-23 14:25:10.600 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-23 14:25:12.345 [Thread-89] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-10-23 14:25:12.468 [restartedMain] INFO  com.kdshop.WebApplication - Starting WebApplication using Java 1.8.0_371 on DESKTOP-ILELN00 with PID 35816 (E:\Code\kd-shop-fast\target\classes started by LR in E:\Code\kd-shop-fast)
+2024-10-23 14:25:12.468 [restartedMain] INFO  com.kdshop.WebApplication - No active profile set, falling back to default profiles: default
+2024-10-23 14:25:12.702 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+2024-10-23 14:25:12.702 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:25:12.702 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-23 14:25:12.702 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2024-10-23 14:25:12.770 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-10-23 14:25:12.772 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-23 14:25:12.772 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 302 ms
+2024-10-23 14:25:12.892 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-10-23 14:25:12.897 [restartedMain] INFO  c.k.c.KdShopWebConfig$$EnhancerBySpringCGLIB$$272f90dd - =========================Windows 图片资源映射============================
+2024-10-23 14:25:12.925 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-23 14:25:12.932 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:25:12.936 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+2024-10-23 14:25:12.938 [restartedMain] INFO  com.kdshop.WebApplication - Started WebApplication in 0.505 seconds (JVM running for 1275.451)
+2024-10-23 14:25:12.939 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-23 14:25:37.122 [Thread-93] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-10-23 14:25:37.353 [restartedMain] INFO  com.kdshop.WebApplication - Starting WebApplication using Java 1.8.0_371 on DESKTOP-ILELN00 with PID 35816 (E:\Code\kd-shop-fast\target\classes started by LR in E:\Code\kd-shop-fast)
+2024-10-23 14:25:37.353 [restartedMain] INFO  com.kdshop.WebApplication - No active profile set, falling back to default profiles: default
+2024-10-23 14:25:37.654 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+2024-10-23 14:25:37.654 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:25:37.654 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-23 14:25:37.654 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2024-10-23 14:25:37.728 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-10-23 14:25:37.730 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-23 14:25:37.730 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 371 ms
+2024-10-23 14:25:37.876 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-10-23 14:25:37.880 [restartedMain] INFO  c.k.c.KdShopWebConfig$$EnhancerBySpringCGLIB$$272f90dd - =========================Windows 图片资源映射============================
+2024-10-23 14:25:37.901 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-23 14:25:37.908 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:25:37.911 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+2024-10-23 14:25:37.913 [restartedMain] INFO  com.kdshop.WebApplication - Started WebApplication in 0.628 seconds (JVM running for 1300.426)
+2024-10-23 14:25:37.914 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-23 14:31:53.564 [Thread-97] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-10-23 14:31:53.771 [restartedMain] INFO  com.kdshop.WebApplication - Starting WebApplication using Java 1.8.0_371 on DESKTOP-ILELN00 with PID 35816 (E:\Code\kd-shop-fast\target\classes started by LR in E:\Code\kd-shop-fast)
+2024-10-23 14:31:53.771 [restartedMain] INFO  com.kdshop.WebApplication - No active profile set, falling back to default profiles: default
+2024-10-23 14:31:54.229 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+2024-10-23 14:31:54.230 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:31:54.230 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-23 14:31:54.230 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2024-10-23 14:31:54.336 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-10-23 14:31:54.338 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-23 14:31:54.338 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 564 ms
+2024-10-23 14:31:54.653 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-10-23 14:31:54.686 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-23 14:31:54.695 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:31:54.701 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+2024-10-23 14:31:54.704 [restartedMain] INFO  com.kdshop.WebApplication - Started WebApplication in 0.982 seconds (JVM running for 1677.218)
+2024-10-23 14:31:54.705 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-23 14:31:57.932 [Thread-101] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-10-23 14:31:58.083 [restartedMain] INFO  com.kdshop.WebApplication - Starting WebApplication using Java 1.8.0_371 on DESKTOP-ILELN00 with PID 35816 (E:\Code\kd-shop-fast\target\classes started by LR in E:\Code\kd-shop-fast)
+2024-10-23 14:31:58.084 [restartedMain] INFO  com.kdshop.WebApplication - No active profile set, falling back to default profiles: default
+2024-10-23 14:31:58.364 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+2024-10-23 14:31:58.365 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:31:58.365 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-23 14:31:58.365 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2024-10-23 14:31:58.441 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-10-23 14:31:58.445 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-23 14:31:58.445 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 361 ms
+2024-10-23 14:31:58.584 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-10-23 14:31:58.599 [restartedMain] INFO  c.k.c.KdShopWebConfig$$EnhancerBySpringCGLIB$$272f90dd - =========================Windows 图片资源映射============================
+2024-10-23 14:31:58.625 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-23 14:31:58.632 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:31:58.635 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+2024-10-23 14:31:58.638 [restartedMain] INFO  com.kdshop.WebApplication - Started WebApplication in 0.593 seconds (JVM running for 1681.152)
+2024-10-23 14:31:58.639 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-23 14:37:00.439 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-10-23 14:37:07.539 [restartedMain] INFO  com.kdshop.WebApplication - Starting WebApplication using Java 1.8.0_371 on DESKTOP-ILELN00 with PID 3144 (E:\Code\kd-shop-fast\target\classes started by LR in E:\Code\kd-shop-fast)
+2024-10-23 14:37:07.542 [restartedMain] INFO  com.kdshop.WebApplication - No active profile set, falling back to default profiles: default
+2024-10-23 14:37:07.637 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-23 14:37:07.638 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-23 14:37:08.669 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+2024-10-23 14:37:08.678 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:37:08.679 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-23 14:37:08.679 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2024-10-23 14:37:08.922 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-10-23 14:37:08.928 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-23 14:37:08.928 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1290 ms
+2024-10-23 14:37:09.600 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-10-23 14:37:09.618 [restartedMain] INFO  c.k.c.KdShopWebConfig$$EnhancerBySpringCGLIB$$cbf7b5fe - =========================Windows 图片资源映射============================
+2024-10-23 14:37:09.755 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-23 14:37:09.781 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:37:09.836 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+2024-10-23 14:37:09.857 [restartedMain] INFO  com.kdshop.WebApplication - Started WebApplication in 2.739 seconds (JVM running for 4.178)
+2024-10-23 14:40:04.522 [Thread-11] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-10-23 14:40:04.665 [restartedMain] INFO  com.kdshop.WebApplication - Starting WebApplication using Java 1.8.0_371 on DESKTOP-ILELN00 with PID 3144 (E:\Code\kd-shop-fast\target\classes started by LR in E:\Code\kd-shop-fast)
+2024-10-23 14:40:04.665 [restartedMain] INFO  com.kdshop.WebApplication - No active profile set, falling back to default profiles: default
+2024-10-23 14:40:04.942 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+2024-10-23 14:40:04.943 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:40:04.943 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-23 14:40:04.943 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2024-10-23 14:40:05.025 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-10-23 14:40:05.028 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-23 14:40:05.028 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 360 ms
+2024-10-23 14:40:05.310 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-10-23 14:40:05.322 [restartedMain] INFO  c.k.c.KdShopWebConfig$$EnhancerBySpringCGLIB$$cbf7b5fe - =========================Windows 图片资源映射============================
+2024-10-23 14:40:05.380 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-23 14:40:05.396 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:40:05.418 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+2024-10-23 14:40:05.425 [restartedMain] INFO  com.kdshop.WebApplication - Started WebApplication in 0.803 seconds (JVM running for 179.746)
+2024-10-23 14:40:05.428 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-23 14:40:07.165 [Thread-18] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-10-23 14:40:07.304 [restartedMain] INFO  com.kdshop.WebApplication - Starting WebApplication using Java 1.8.0_371 on DESKTOP-ILELN00 with PID 3144 (E:\Code\kd-shop-fast\target\classes started by LR in E:\Code\kd-shop-fast)
+2024-10-23 14:40:07.304 [restartedMain] INFO  com.kdshop.WebApplication - No active profile set, falling back to default profiles: default
+2024-10-23 14:40:07.579 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+2024-10-23 14:40:07.580 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:40:07.580 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-23 14:40:07.580 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2024-10-23 14:40:07.660 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-10-23 14:40:07.663 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-23 14:40:07.663 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 357 ms
+2024-10-23 14:40:07.871 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-10-23 14:40:07.877 [restartedMain] INFO  c.k.c.KdShopWebConfig$$EnhancerBySpringCGLIB$$cbf7b5fe - =========================Windows 图片资源映射============================
+2024-10-23 14:40:07.911 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-23 14:40:07.922 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2024-10-23 14:40:07.927 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+2024-10-23 14:40:07.933 [restartedMain] INFO  com.kdshop.WebApplication - Started WebApplication in 0.67 seconds (JVM running for 182.253)
+2024-10-23 14:40:07.935 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-23 14:40:51.216 [http-nio-3000-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-23 14:40:51.216 [http-nio-3000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-23 14:40:51.217 [http-nio-3000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-23 14:41:01.861 [http-nio-3000-exec-10] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-10-23 15:00:24.856 [Thread-22] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-10-23 15:00:24.862 [Thread-22] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-10-23 15:00:25.023 [restartedMain] INFO  com.kdshop.WebApplication - Starting WebApplication using Java 1.8.0_371 on DESKTOP-ILELN00 with PID 3144 (E:\Code\kd-shop-fast\target\classes started by LR in E:\Code\kd-shop-fast)
+2024-10-23 15:00:25.023 [restartedMain] INFO  com.kdshop.WebApplication - No active profile set, falling back to default profiles: default
+2024-10-23 15:00:25.404 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+2024-10-23 15:00:25.404 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2024-10-23 15:00:25.405 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-23 15:00:25.405 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2024-10-23 15:00:25.518 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-10-23 15:00:25.524 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-23 15:00:25.524 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 498 ms
+2024-10-23 15:00:25.745 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-10-23 15:00:25.750 [restartedMain] INFO  c.k.c.KdShopWebConfig$$EnhancerBySpringCGLIB$$cbf7b5fe - =========================Windows 图片资源映射============================
+2024-10-23 15:00:25.774 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-23 15:00:25.784 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2024-10-23 15:00:25.790 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+2024-10-23 15:00:25.793 [restartedMain] INFO  com.kdshop.WebApplication - Started WebApplication in 0.813 seconds (JVM running for 1400.114)
+2024-10-23 15:00:25.794 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-23 15:00:27.580 [Thread-27] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-10-23 15:00:27.716 [restartedMain] INFO  com.kdshop.WebApplication - Starting WebApplication using Java 1.8.0_371 on DESKTOP-ILELN00 with PID 3144 (E:\Code\kd-shop-fast\target\classes started by LR in E:\Code\kd-shop-fast)
+2024-10-23 15:00:27.717 [restartedMain] INFO  com.kdshop.WebApplication - No active profile set, falling back to default profiles: default
+2024-10-23 15:00:27.960 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+2024-10-23 15:00:27.960 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2024-10-23 15:00:27.960 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-23 15:00:27.961 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2024-10-23 15:00:28.029 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-10-23 15:00:28.031 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-23 15:00:28.031 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 312 ms
+2024-10-23 15:00:28.161 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-10-23 15:00:28.165 [restartedMain] INFO  c.k.c.KdShopWebConfig$$EnhancerBySpringCGLIB$$cbf7b5fe - =========================Windows 图片资源映射============================
+2024-10-23 15:00:28.186 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-23 15:00:28.193 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2024-10-23 15:00:28.197 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+2024-10-23 15:00:28.199 [restartedMain] INFO  com.kdshop.WebApplication - Started WebApplication in 0.523 seconds (JVM running for 1402.52)
+2024-10-23 15:00:28.200 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-23 15:00:39.042 [http-nio-3000-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-23 15:00:39.043 [http-nio-3000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-23 15:00:39.044 [http-nio-3000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-23 15:00:40.610 [http-nio-3000-exec-10] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2024-10-23 15:01:24.669 [Thread-31] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2024-10-23 15:01:24.670 [Thread-31] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2024-10-23 15:01:24.827 [restartedMain] INFO  com.kdshop.WebApplication - Starting WebApplication using Java 1.8.0_371 on DESKTOP-ILELN00 with PID 3144 (E:\Code\kd-shop-fast\target\classes started by LR in E:\Code\kd-shop-fast)
+2024-10-23 15:01:24.828 [restartedMain] INFO  com.kdshop.WebApplication - No active profile set, falling back to default profiles: default
+2024-10-23 15:01:25.128 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+2024-10-23 15:01:25.128 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2024-10-23 15:01:25.128 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-23 15:01:25.128 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2024-10-23 15:01:25.209 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-10-23 15:01:25.212 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-23 15:01:25.212 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 379 ms
+2024-10-23 15:01:25.351 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-10-23 15:01:25.355 [restartedMain] INFO  c.k.c.KdShopWebConfig$$EnhancerBySpringCGLIB$$cbf7b5fe - =========================Windows 图片资源映射============================
+2024-10-23 15:01:25.380 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-23 15:01:25.386 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2024-10-23 15:01:25.390 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+2024-10-23 15:01:25.396 [restartedMain] INFO  com.kdshop.WebApplication - Started WebApplication in 0.614 seconds (JVM running for 1459.717)
+2024-10-23 15:01:25.397 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-23 15:01:27.173 [Thread-36] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-10-23 15:01:27.311 [restartedMain] INFO  com.kdshop.WebApplication - Starting WebApplication using Java 1.8.0_371 on DESKTOP-ILELN00 with PID 3144 (E:\Code\kd-shop-fast\target\classes started by LR in E:\Code\kd-shop-fast)
+2024-10-23 15:01:27.311 [restartedMain] INFO  com.kdshop.WebApplication - No active profile set, falling back to default profiles: default
+2024-10-23 15:01:27.555 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+2024-10-23 15:01:27.555 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2024-10-23 15:01:27.555 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-23 15:01:27.555 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2024-10-23 15:01:27.621 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-10-23 15:01:27.624 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-23 15:01:27.624 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 310 ms
+2024-10-23 15:01:27.782 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-10-23 15:01:27.786 [restartedMain] INFO  c.k.c.KdShopWebConfig$$EnhancerBySpringCGLIB$$cbf7b5fe - =========================Windows 图片资源映射============================
+2024-10-23 15:01:27.812 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-23 15:01:27.821 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2024-10-23 15:01:27.825 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+2024-10-23 15:01:27.827 [restartedMain] INFO  com.kdshop.WebApplication - Started WebApplication in 0.554 seconds (JVM running for 1462.148)
+2024-10-23 15:01:27.828 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-23 15:01:28.469 [http-nio-3000-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-23 15:01:28.471 [http-nio-3000-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-23 15:01:28.472 [http-nio-3000-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-23 15:01:30.031 [http-nio-3000-exec-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} inited
+2024-10-23 15:07:46.545 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closing ...
+2024-10-23 15:07:46.546 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closed
