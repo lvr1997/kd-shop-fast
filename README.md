@@ -27,8 +27,18 @@
 - 项目开发工具： IDEA2023
 - 数据库：Mysql8.0
 
-### yml配置说明
+## 配置
 
-`/src/main/resources/application.yml`
+配置文件：`/src/main/resources/application.yml`
+
+### 文件上传配置
+
+因为SpringBoot是内置tomacat,所以需要配置文件资源映射，实现图片上传功能
+
+```yaml
+# 文件上传映射本地路径
+# 在项目的源文件夹中的upload目录，用于文件上传
+imagesPath: E:/Code/kd-shop-fast/upload/
+```
 
 **最后感谢大家的支持，有你们的支持才是我更新的动力！！！**
